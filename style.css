@@ -109,6 +109,10 @@ h2 {
   cursor: pointer;
 }
 
+.members img {
+  padding-bottom: 20px;
+}
+
 .members img:hover {
     transform: scale(1.1);
     transition: all 0.8 ease;
