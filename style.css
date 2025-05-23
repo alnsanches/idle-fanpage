@@ -284,7 +284,9 @@ footer a:hover {
 }
 
 
-/* MOBILE *//* Reset básico */
+/* MOBILE */
+
+/* Reset básico */
 * {
   margin: 0;
   padding: 0;
@@ -297,7 +299,7 @@ html {
 }
 
 body {
-  font-family: Arial, sans-serif; 
+  font-family: Arial, sans-serif;
   background-color: #fff;
   color: #333;
   line-height: 1.6;
@@ -348,4 +350,90 @@ body {
 }
 
 .card {
-  background-color: #fa
+  background-color: #fafafa;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* ==========================
+   📱 Media Queries
+   ========================== */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .intro h1 {
+    font-size: 1.8rem;
+  }
+
+  .intro p {
+    font-size: 1rem;
+  }
+
+  .container {
+    padding: 1.5rem 1rem;
+  }
+
+  .header-slideshow {
+    height: 80vh;
+  }
+}
+
+/* Celulares médios */
+@media (max-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+
+  .intro h1 {
+    font-size: 1.6rem;
+  }
+
+  .header-slideshow {
+    height: 65vh;
+  }
+
+  .card {
+    padding: 1.2rem;
+  }
+}
+
+/* Celulares pequenos */
+@media (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+
+  .intro h1 {
+    font-size: 1.4rem;
+  }
+
+  .intro p {
+    font-size: 1rem;
+  }
+
+  .card {
+    padding: 1rem;
+  }
+
+  .header-slideshow {
+    height: 55vh;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+}
