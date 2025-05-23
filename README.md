@@ -1,26 +1,19 @@
 # 🌟 I-DLE Fanpage
 
-Bem-vindo(a) à fanpage dedicada ao grupo sul-coreano **I-DLE**!  
-Este projeto foi desenvolvido como uma homenagem ao grupo, com foco em design responsivo, estética moderna e uma navegação leve e agradável — ideal para quem deseja conhecer ou celebrar o talento dessas artistas incríveis.
+Welcome to the fanpage dedicated to the South Korean group I-DLE!
+This project was developed as a tribute to the group, with a focus on responsive design, modern aesthetics, and smooth, pleasant navigation — perfect for anyone looking to discover or celebrate the talent of these amazing artists.
 
-## 🎯 Objetivo
+## 🎯 Purpose
+Create a captivating visual experience for I-DLE fans, highlighting photos, visual identity, and member information in a responsive, fluid, and attractive layout.
 
-Criar uma experiência visual cativante para fãs de (G)I-DLE, destacando fotos, identidade visual e informações sobre as integrantes em um layout responsivo, fluido e atrativo.
+## ✨ Key Features
+📸 Featured slideshow: Image display with smooth transitions
+📱 Responsive design: Optimized for mobile devices, tablets, and desktops
+🎨 Modern style: Soft colors, elegant fonts, and subtle animations
+⚙️ Clean code, no frameworks: Just HTML, CSS, and pure JavaScript
+🌈 Easily customizable: Simple structure for editing and expansion
 
----
-
-## ✨ Principais Funcionalidades
-
-- 📸 **Slideshow em destaque:** Apresentação de imagens com transições suaves
-- 📱 **Design responsivo:** Visual adaptado para celulares, tablets e desktops
-- 🎨 **Estilo moderno:** Cores suaves, fontes elegantes e animações sutis
-- ⚙️ **Código limpo e sem frameworks:** Apenas HTML, CSS e JavaScript puro
-- 🌈 **Fácil customização:** Estrutura simples para edição e expansão
-
----
-
-## 🚀 Tecnologias Utilizadas
-
-- **HTML5** – estrutura semântica e acessível
-- **CSS3** – animações, responsividade com Flexbox e Grid
-- **JavaScript Vanilla** – efeitos dinâmicos como o slideshow
+## 🚀 Technologies Used
+HTML5 – semantic and accessible structure
+CSS3 – animations, responsiveness with Flexbox and Grid
+Vanilla JavaScript – dynamic effects like the slideshow
