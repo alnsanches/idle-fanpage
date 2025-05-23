@@ -1,5 +1,8 @@
 # 🌟 I-DLE Fanpage
 
+
+![i-dle](https://github.com/user-attachments/assets/553f92b0-2c30-4464-a9e2-826237e25337)
+
 Welcome to the fanpage dedicated to the South Korean group I-DLE!
 This project was developed as a tribute to the group, with a focus on responsive design, modern aesthetics, and smooth, pleasant navigation — perfect for anyone looking to discover or celebrate the talent of these amazing artists.
 
