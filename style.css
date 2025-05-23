@@ -1,0 +1,280 @@
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+}
+    
+body { 
+  font-family: Arial, sans-serif; 
+  line-height: 1.6; 
+}
+
+header img { 
+  width: 100%; 
+  height: auto; 
+  display: block; 
+} 
+
+nav { 
+  background: #111; 
+  color: #fff; 
+  position: sticky; 
+  top: 0; 
+  z-index: 100; 
+}
+  
+nav .menu-toggle { 
+  display: none; 
+  background: #222; 
+  padding: 1rem; 
+  cursor: pointer; 
+  text-align: center; 
+}
+
+nav ul { 
+  display: none; 
+  flex-direction: column; 
+  list-style: none; 
+  text-align: center; 
+}
+
+nav ul li { 
+  padding: 1rem 0; 
+  border-top: 1px solid #333; 
+}
+
+nav a { 
+  color: #fff; 
+  text-decoration: none; 
+  display: block; 
+}
+
+.linha-info { 
+  background: #111; 
+  color: #fff; 
+  position: sticky; 
+  top: 0; 
+  z-index: 100; 
+  text-align: center;
+}
+
+nav.open ul { 
+  display: flex; 
+}
+
+@media (min-width: 768px) {
+      nav .menu-toggle { display: none; }
+      nav ul { display: flex; flex-direction: row; justify-content: center; }
+      nav ul li { border: none; margin: 0 1rem; padding: 1rem 0; }
+    }
+
+
+
+.linha-info { 
+  position: sticky;
+  top: 50px; /* ou a altura real da sua navbar */
+  z-index: 999;
+  background-color: #000; /* ou o fundo que quiser */
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+section { 
+  padding: 4rem 2rem; 
+}
+
+.container { 
+  max-width: 1200px; 
+  margin: 0 auto; 
+  text-align: justify;
+  padding-top: 80px;
+}
+
+h2 { 
+  margin-bottom: 1rem; 
+  text-align: center; 
+}
+    
+#sobre p { 
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+/* MEMBERS */ 
+
+.members { 
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+  gap: 2rem;
+  cursor: pointer;
+}
+
+.members img:hover {
+    transform: scale(1.1);
+    transition: all 0.8 ease;
+    -webkit-filter: grayscale(0%);
+    transition: 1s;
+}
+
+.member-card { 
+  text-align: center; 
+}
+
+.member-card img { 
+  width: 100%; 
+  border-radius: 10px; 
+}
+
+/* EX-MEMBERS */ 
+
+.exmembers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+.exmember-card {
+  text-align: center;
+}
+.exmember-card img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto 1rem;
+}
+
+.exmember-card img:hover {
+  transform: scale(1.1);
+  transition: all 0.8 ease;
+  -webkit-filter: grayscale(100%);
+  transition: 1s;
+}
+
+
+/* ALBUNS */ 
+
+.albums {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+}
+.album-card {
+text-align: center;
+}
+.album-card img {
+width: 100%;
+border-radius: 5px;
+aspect-ratio: 1 / 1; /* proporção quadrada */
+}
+
+/* VIDEOS */ 
+
+.videos { 
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  gap: 2rem; 
+}
+
+.video-card iframe { 
+  width: 100%; 
+  height: 200px; 
+}
+
+footer { 
+  background: #222; 
+  color: #ccc; 
+  padding: 2rem; 
+  flex-direction: column;
+      /* Altura mínima opcional para centralizar verticalmente */
+  display: flex;
+}
+
+footer .container {
+  align-items: center;     /* Alinha horizontalmente */
+  justify-content: center; /* Alinha verticalmente */
+  text-align: center;
+  min-height: 100px; 
+}
+
+footer a {
+  color: whitesmoke;
+}
+
+footer a:hover {
+  color: #7e00bf;
+}
+
+/* SOCIAL MEDIA */ 
+
+.social-media {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.social-media a {
+  margin-top: 20px;
+  color: #000;
+  margin: 0 0.5rem; 
+  text-decoration: none; 
+}
+
+.social-media a strong {
+  color: #7e00bf;
+}
+
+.social-media a i:hover {
+  color: #7e00bf;
+}
+
+.social-media a {
+  color: #000; 
+  width: 100px;
+  margin-top: 26px;
+  margin-bottom: 12px;
+}
+
+.social-media ai:hover {
+  color: #7e00bf; 
+  transform: scale(1.5);
+  transition: all 0.8 ease;
+  transition: 0.5s;
+}
+
+
+/* HEADER SLIDESHOW */
+
+.header-slideshow {
+  position: relative;
+  width: 100%;
+  height: 900px; /* ajuste conforme necessário */
+  overflow: hidden;
+}
+
+.header-slideshow img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* faz a imagem cobrir toda a área, cortando o que ultrapassar */
+  opacity: 0;
+  animation: fadeImages 12s infinite;
+}
+
+.header-slideshow img:nth-child(1) {
+  animation-delay: 0s;
+}
+.header-slideshow img:nth-child(2) {
+  animation-delay: 4s;
+}
+.header-slideshow img:nth-child(3) {
+  animation-delay: 8s;
+}
+
+@keyframes fadeImages {
+  0% { opacity: 0; }
+  8% { opacity: 1; }
+  25% { opacity: 1; }
+  33% { opacity: 0; }
+  100% { opacity: 0; }
+}
